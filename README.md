@@ -3,7 +3,7 @@ Simply run AwarenessCradle.py.
 
 # Meme Neural Network (MNN): A Pathway to Cheaper, More Customized AGI
 
-Based on the scaling law analysis presented in this paper, achieving AGI with simple mechanisms, low cost, and high stability simultaneously proves impossible. To serve the broadest population, we prioritize complex mechanisms over operational costs, aiming to enable personalized AI assistants accessible to all. This section introduces an extensible framework—Meme Neural Network—built upon the Multi-DSL Regulation Model, which implements the Rule-State Duality through meme-based computation. We invite the research community to collaborate on this open-source project[1](@ref).
+Based on the scaling law analysis presented in ![unified_intelligence_theory.pdf](assets/unified_intelligence_theory.pdf), achieving AGI with simple mechanisms, low cost, and high stability simultaneously proves impossible. To serve the broadest population, we prioritize complex mechanisms over operational costs, aiming to enable personalized AI assistants accessible to all. This section introduces an extensible framework—Meme Neural Network—built upon the Multi-DSL Regulation Model, which implements the Rule-State Duality through meme-based computation. We invite the research community to collaborate on this open-source project[1](@ref).
 
 ## Core Concept: Meme as Rule-State Unit
 
@@ -65,7 +65,9 @@ The framework exhibits intelligent behavior through two complementary mechanisms
 
 ## Incremental Training Methodology
 
-The framework employs a tutor-student training model where the network initializes as a $\mathbf{R}_{\text{learnt}}$-naive system, gradually acquiring and composing rules through difficulty-progressive tasks. In our experimental framework, the training progresses from basic sensorimotor control (limb state perception) to complex behaviors (standing, lying, running), mimicking biological learning processes. The integration of auditory instructions tests Pavlovian conditioning capabilities, demonstrating how $\mathbf{R}_{\text{learnt}}$ constructs progressively through environmental interaction and task composition.
+The framework employs a tutor-student training model where the network initializes as a $\mathbf{R}_{\text{learnt}}$-naive system, gradually acquiring and composing rules through difficulty-progressive tasks. In our experimental framework, the training progresses from basic sensorimotor control (limb state perception) to complex behaviors (standing, lying, running), mimicking biological learning processes. 
+
+The integration of auditory instructions tests Pavlovian conditioning capabilities, demonstrating how $\mathbf{R}_{\text{learnt}}$ constructs progressively through environmental interaction and task composition.
 
 ## Semi-finished Results
 
