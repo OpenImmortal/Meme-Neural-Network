@@ -9,7 +9,9 @@ Based on the scaling law analysis presented in this paper, achieving AGI with si
 
 A *meme* represents a continuously activated pathway with specific semantic meaning, manifested as spatiotemporal state-dependent $\mathbf{S}$. Memes are recorded in real-time with non-zero spatiotemporal scales, and all intelligence operations are based on meme manipulations. Each meme can be viewed as an instance of $\mathbf{R}_{\text{learnt}}$, consisting of connectable heads and tails within the $\mathbf{S}$ space, with configurations that dynamically evolve across spacetime.
 
-![The structure of meme instances $\mathbf{R}_{\text{learnt}}$ in state space $\mathbf{S}$, illustrating connectable heads and tails that enable dynamic recombination. The spatial configuration alone is insufficient to fully characterize a meme, as its identity emerges from rule applications (state interactions) governed by the extraction operator $\mathcal{E}$ and deterministic scale $\mathcal{D}$.](assets/meme_network.png)
+|![The structure of meme instances $\mathbf{R}_{\text{learnt}}$ in state space $\mathbf{S}$, illustrating connectable heads and tails that enable dynamic recombination. The spatial configuration alone is insufficient to fully characterize a meme, as its identity emerges from rule applications (state interactions) governed by the extraction operator $\mathcal{E}$ and deterministic scale $\mathcal{D}$.](assets/meme_network.png)|
+| :---: |
+| The structure of meme instances $\mathbf{R}_{\text{learnt}}$ in state space $\mathbf{S}$, illustrating connectable heads and tails that enable dynamic recombination. The spatial configuration alone is insufficient to fully characterize a meme, as its identity emerges from rule applications (state interactions) governed by the extraction operator $\mathcal{E}$ and deterministic scale $\mathcal{D}$. |
 
 ## Framework Design Principles
 
@@ -21,7 +23,9 @@ The framework's primary objective is trading mechanism complexity for operationa
 
 - **Temporal Dependency Support:** To address computational complexity in temporal modeling, we implement direct time-dependency mechanisms:
 
- ![](assets/temporal_modeling.png)
+ |![](assets/temporal_modeling.png)|
+ | :---: |
+ 
  
   where $y \geq 0$ is meaningful, and $(k, t_s, b)$ are trainable parameters, with $a$ representing weighted activation intensity.
 
@@ -67,11 +71,17 @@ The framework employs a tutor-student training model where the network initializ
 
 Figures 2, 3, and 4 illustrate how the semi-finished MNN, under the signaling mechanism, induces the creation of cells and connections to construct pathways. In the visualization, blue represents the receptor cell interfaces, red represents the effector cell interfaces, and green indicates intermediate cells. Enlarged cells denote activated cells. Blue connections represent physical links, yellow connections signify that a connection is being activated, and green connections indicate that the connection has been successfully activated.
 
-![Initial State](assets/mnn_demo_fig1.png)
+|![Initial State](assets/mnn_demo_fig1.png)|
+| :---: |
+|**Initial State**|
 
-![Creating New Cells and Connections](assets/mnn_demo_fig2.png)
+|![Creating New Cells and Connections](assets/mnn_demo_fig2.png)|
+| :---: |
+|**Creating New Cells and Connections**|
 
-![Activating the Effector Cell](assets/mnn_demo_fig3.png)
+|![Activating the Effector Cell](assets/mnn_demo_fig3.png)|
+| :---: |
+|**Activating the Effector Cell**|
 
 [1](@ref): GitHub Links: https://github.com/default01234/Meme-Neural-Network or memenn.com
 
